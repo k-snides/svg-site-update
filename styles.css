@@ -128,13 +128,11 @@ a {
 .heart-icon {
   height: 13px;
   width: 14px;
-  /*padding: 1px 2px;*/
 }
 
 .location-icon {
   width: 15px;
   height: 15px;
-  /*padding: 3px 1px 2px 1px;*/
 }
 
 .contact-icon {
@@ -151,13 +149,11 @@ a {
   top: 1px;
   left: 2px;
   z-index: 1;
-  /*display: none;*/
 }
 
-svg#Layer_1.heart-icon,
-svg#Layer_1.location-icon,
-svg#Layer_1.contact-icon {
-  /*border: 1px solid red;*/
+svg#heart-icon.heart-icon,
+svg#location-icon.location-icon,
+svg#contact-icon.contact-icon {
   padding: 5px 2px 1px 2px;
 }
 
@@ -168,6 +164,7 @@ a:hover .contact-icon path {
   fill: #111;
 }
 
+/*Extra Credit Step 2*/
 a:hover .heart-icon path {
   animation: hoverHeart 1s ease-out;
   transform-origin: 50% 50%;
@@ -275,10 +272,10 @@ svg[class*="corgi"] {
   fill: #FBFEFF; /*dogs snout*/
 }
 
-svg#Layer_1.corgi-red,
-svg#Layer_1.corgi-fawn,
-svg#Layer_1.corgi-sable,
-svg#Layer_1.corgi-blacktan, {
+svg#corgi-red.corgi-red,
+svg#corgi-fawn.corgi-fawn,
+svg#corgi-sable.corgi-sable,
+svg#corgi-blacktan.corgi-blacktan {
   margin-bottom: 15px;
 }
 
